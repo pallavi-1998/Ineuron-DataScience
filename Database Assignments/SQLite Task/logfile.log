@@ -1,0 +1,6 @@
+2023-02-06 04:11:36 INFO-words count from  2 datasets are 29647
+2023-02-06 04:23:03 INFO-letters count from  2 datasets are 26
+2023-02-06 04:23:13 INFO-filtered words from 1datasets is/are 115429
+2023-02-06 04:23:30 INFO-Success Return of list of each files as combined list
+2023-02-06 04:24:15 INFO-Database Created: <sqlite3.Connection object at 0x054ED680>
+2023-02-06 04:24:15 INFO-Total records inserted : 6906
