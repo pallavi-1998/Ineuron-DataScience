@@ -1,0 +1,7 @@
+2023-03-15 00:25:38,143:INFO:list:List object created with value: [1, 2, 3]
+2023-03-15 00:28:28,739:INFO:list:List object created with value: [1, 2, 3]
+2023-03-15 00:28:28,740:INFO:list:List object appended with value: s
+2023-03-15 00:28:28,740:INFO:list:Created shallow copy of the list
+2023-03-15 00:28:28,742:INFO:list:number of occurrences of parameter [4, 5] in the list: 0
+2023-03-15 00:28:28,742:INFO:list:List [1, 2, 3, 's', 4, 5, [66, 77]] is extended by parameter: [4, 5, [66, 77]]
+2023-03-15 00:28:28,743:INFO:list:List is reversed

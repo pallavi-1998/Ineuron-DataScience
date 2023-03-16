@@ -1,0 +1,41 @@
+2023-03-01 13:11:23,578:INFO:sql_logfile:Connection Successful
+2023-03-01 13:11:23,579:INFO:sql_logfile:Cursor is created
+2023-03-01 13:11:23,580:INFO:sql_logfile:database list is fetched
+2023-03-01 13:11:23,582:INFO:sql_logfile:Cursor is created
+2023-03-01 13:11:23,586:INFO:sql_logfile:table list is fetched
+2023-03-01 13:11:23,587:INFO:sql_logfile:Cursor is created
+2023-03-01 13:11:23,590:INFO:sql_logfile:column list is fetched, test test_table
+2023-03-01 13:11:23,592:INFO:sql_logfile:Cursor is created
+2023-03-01 13:11:23,600:INFO:sql_logfile:database is created Carbon_Nanotubes
+2023-03-01 13:11:23,601:INFO:sql_logfile:Cursor is created
+2023-03-01 13:11:23,649:INFO:sql_logfile:table is created Carbon_Nanotubes carbon_nano  chiralIndice_m INT(5), chiralIndice_n INT(5), iniAtomicCoordinate_u VARCHAR(50), iniAtomicCoordinate_v VARCHAR(50), iniAtomicCoordinate_w VARCHAR(50), finalAtomicCoordinate_u VARCHAR(50), finalAtomicCoordinate_v VARCHAR(50), finalAtomicCoordinate_w VARCHAR(50)
+2023-03-01 13:11:23,650:INFO:sql_logfile:Cursor is created
+2023-03-01 13:11:23,652:INFO:sql_logfile:database list is fetched
+2023-03-01 13:11:23,654:INFO:sql_logfile:Cursor is created
+2023-03-01 13:11:23,657:INFO:sql_logfile:table list is fetched
+2023-03-01 13:11:23,658:INFO:sql_logfile:Cursor is created
+2023-03-01 13:11:23,662:INFO:sql_logfile:column list is fetched, Carbon_Nanotubes carbon_nano
+2023-03-01 13:11:23,664:INFO:sql_logfile:Cursor is created
+2023-03-01 13:11:23,665:INFO:sql_logfile:File opened and read into progress ...
+2023-03-01 13:11:23,690:INFO:sql_logfile:data is inserting Carbon_Nanotubes carbon_nano 
+2023-03-01 13:11:24,544:INFO:sql_logfile:10721 data inserted successfully Carbon_Nanotubes carbon_nano 
+2023-03-01 13:11:24,548:INFO:sql_logfile:Cursor is created
+2023-03-01 13:11:24,550:INFO:sql_logfile:data fetched (all data) Carbon_Nanotubes carbon_nano 
+2023-03-01 13:11:24,553:INFO:sql_logfile:Cursor is created
+2023-03-01 13:11:24,568:INFO:sql_logfile:76 data is fetched (based on condition) Carbon_Nanotubes carbon_nano * chiralIndice_m='3' and chiralIndice_n='2'
+2023-03-01 13:11:24,581:INFO:sql_logfile:Cursor is created
+2023-03-01 13:11:24,607:INFO:sql_logfile:data is updated Carbon_Nanotubes carbon_nano chiralIndice_m='123',chiralIndice_n='124' chiralIndice_m='2' and chiralIndice_n='1'
+2023-03-01 13:11:24,608:INFO:sql_logfile:Cursor is created
+2023-03-01 13:11:24,621:INFO:sql_logfile:28 data is fetched (based on condition) Carbon_Nanotubes carbon_nano * chiralIndice_m='123' and chiralIndice_n='124'
+2023-03-01 13:11:24,629:INFO:sql_logfile:Cursor is created
+2023-03-01 13:11:24,653:INFO:sql_logfile:data is deleted Carbon_Nanotubes carbon_nano chiralIndice_m='3' and chiralIndice_n='1'
+2023-03-01 13:11:24,654:INFO:sql_logfile:Cursor is created
+2023-03-01 13:11:24,670:INFO:sql_logfile:0 data is fetched (based on condition) Carbon_Nanotubes carbon_nano * chiralIndice_m='3' and chiralIndice_n='1'
+2023-03-01 13:11:24,672:INFO:sql_logfile:Cursor is created
+2023-03-01 13:11:24,693:INFO:sql_logfile:table is dropped Carbon_Nanotubes carbon_nano
+2023-03-01 13:11:24,694:INFO:sql_logfile:Cursor is created
+2023-03-01 13:11:24,696:INFO:sql_logfile:table list is fetched
+2023-03-01 13:11:24,697:INFO:sql_logfile:Cursor is created
+2023-03-01 13:11:24,706:INFO:sql_logfile:database is dropped Carbon_Nanotubes
+2023-03-01 13:11:24,707:INFO:sql_logfile:Cursor is created
+2023-03-01 13:11:24,708:INFO:sql_logfile:database list is fetched

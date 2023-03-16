@@ -1,0 +1,6 @@
+2023-03-15 00:28:29,246:INFO:set:Set object created with value: {56, 34, 12}
+2023-03-15 00:28:29,247:INFO:set:Element 26 is added to the Set
+2023-03-15 00:28:29,248:INFO:set:Returned a shallow copy of a set..
+2023-03-15 00:28:29,250:INFO:set:Difference of sets {56, 34, 26, 12} and {32, 11, 45}: {56, 34, 26, 12}
+2023-03-15 00:28:29,251:INFO:set:Difference of sets {56, 34, 26, 12} and {34, 26, 12}: {56}
+2023-03-15 00:28:29,251:INFO:set:Difference updates of sets is assigned to original set

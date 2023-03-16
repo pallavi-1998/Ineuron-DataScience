@@ -1,0 +1,20 @@
+2023-03-15 00:28:28,743:INFO:dictionary:Dictionary object created with value: {1: 2, 3: 4, 5: {7: 8, 's': 'sush'}, 7: [1, 55, 66, 88], 12: 'lll', 222222: 'dddddddddddd'}
+2023-03-15 00:28:28,744:INFO:dictionary:keys_dict returns list of keys
+2023-03-15 00:28:28,744:INFO:dictionary:Item ((222222, 'dddddddddddd')) is popped out of dictionary
+2023-03-15 00:28:28,744:INFO:dictionary:keys_dict returns list of keys
+2023-03-15 00:28:28,744:INFO:dictionary:Item ((12, 'lll')) is popped out of dictionary
+2023-03-15 00:28:28,745:INFO:dictionary:keys_dict returns list of keys
+2023-03-15 00:28:28,745:INFO:dictionary:Item ((7, [1, 55, 66, 88])) is popped out of dictionary
+2023-03-15 00:28:28,745:INFO:dictionary:keys_dict returns list of keys
+2023-03-15 00:28:29,233:INFO:dictionary:Item ((5, {7: 8, 's': 'sush'})) is popped out of dictionary
+2023-03-15 00:28:29,241:INFO:dictionary:keys_dict returns list of keys
+2023-03-15 00:28:29,241:INFO:dictionary:Item ((3, 4)) is popped out of dictionary
+2023-03-15 00:28:29,242:INFO:dictionary:keys_dict returns list of keys
+2023-03-15 00:28:29,242:INFO:dictionary:Item ((1, 2)) is popped out of dictionary
+2023-03-15 00:28:29,243:INFO:dictionary:keys_dict returns list of keys
+2023-03-15 00:28:29,243:ERROR:dictionary:Raising exception since dict is empty
+2023-03-15 00:28:29,244:ERROR:dictionary:'Dictionary: {} is empty'
+Traceback (most recent call last):
+  File "D:\python_files\Python_package Assignmnt\Dictionary.py", line 193, in popitem_dict
+    raise KeyError(f"Dictionary: {self.d} is empty")
+KeyError: 'Dictionary: {} is empty'

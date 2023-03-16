@@ -1,0 +1,20 @@
+2023-02-14 06:24:22 INFO-Connection Established MongoClient(host=['ac-jwp4lm1-shard-00-01.irbdlow.mongodb.net:27017', 'ac-jwp4lm1-shard-00-00.irbdlow.mongodb.net:27017', 'ac-jwp4lm1-shard-00-02.irbdlow.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-if3xna-shard-0', tls=True)
+2023-02-14 06:24:23 INFO-Database created Successfully.carbon_nanotubesDatabase(MongoClient(host=['ac-jwp4lm1-shard-00-01.irbdlow.mongodb.net:27017', 'ac-jwp4lm1-shard-00-00.irbdlow.mongodb.net:27017', 'ac-jwp4lm1-shard-00-02.irbdlow.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-if3xna-shard-0', tls=True), 'carbon_nanotubes')
+2023-02-14 06:24:23 INFO-Collection created Successfully.carbon_nt_collectionCollection(Database(MongoClient(host=['ac-jwp4lm1-shard-00-01.irbdlow.mongodb.net:27017', 'ac-jwp4lm1-shard-00-00.irbdlow.mongodb.net:27017', 'ac-jwp4lm1-shard-00-02.irbdlow.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-if3xna-shard-0', tls=True), 'carbon_nanotubes'), 'carbon_nt_collection')
+2023-02-14 14:00:27 INFO-Connection Established MongoClient(host=['ac-jwp4lm1-shard-00-01.irbdlow.mongodb.net:27017', 'ac-jwp4lm1-shard-00-02.irbdlow.mongodb.net:27017', 'ac-jwp4lm1-shard-00-00.irbdlow.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-if3xna-shard-0', tls=True)
+2023-02-14 14:02:09 INFO-Database created Successfully.carbon_nanotubesDatabase(MongoClient(host=['ac-jwp4lm1-shard-00-01.irbdlow.mongodb.net:27017', 'ac-jwp4lm1-shard-00-02.irbdlow.mongodb.net:27017', 'ac-jwp4lm1-shard-00-00.irbdlow.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-if3xna-shard-0', tls=True), 'carbon_nanotubes')
+2023-02-14 14:02:10 INFO-Collection created Successfully.carbon_nt_collectionCollection(Database(MongoClient(host=['ac-jwp4lm1-shard-00-01.irbdlow.mongodb.net:27017', 'ac-jwp4lm1-shard-00-02.irbdlow.mongodb.net:27017', 'ac-jwp4lm1-shard-00-00.irbdlow.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-if3xna-shard-0', tls=True), 'carbon_nanotubes'), 'carbon_nt_collection')
+2023-02-14 14:07:10 INFO-Data Inserted 10721 records Successfully 
+2023-02-14 14:09:01 INFO-Data Inserted 9 records Successfully 
+2023-02-14 14:10:29 INFO-Data Inserted 9 records Successfully 
+2023-02-14 14:11:13 INFO-Data Inserted 9 records Successfully 
+2023-02-14 14:11:15 INFO-Data Inserted 9 records Successfully 
+2023-02-14 14:15:36 INFO-Successfully Updated
+2023-02-14 14:16:13 INFO-Successfully Updated
+2023-02-14 14:17:33 INFO-Deleted Successfully
+2023-02-14 14:17:58 INFO-Deleted Successfully
+2023-02-14 14:20:23 INFO-Finding records: {'m': 2}
+2023-02-14 14:21:25 INFO-Finding records: {'m': {'$lte': 3}}
+2023-02-14 14:23:33 INFO-Finding records: {'u': {'$in': ['0,287448', '0,489336', '0,665708']}}
+2023-02-14 14:24:14 INFO-Finding records: {'u': {'$in': ['0,797217', '0,222222', '0,780957']}}
+2023-02-14 14:25:56 INFO-Displaying the top 20records

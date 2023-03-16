@@ -1,0 +1,3 @@
+2023-03-15 00:28:29,253:INFO:tuple:Tuple object created with value: (100, 200, 300, 200)
+2023-03-15 00:28:29,254:INFO:tuple:number of occurrences of parameter 200 in the tuple: 2
+2023-03-15 00:28:29,255:INFO:tuple:Parameter: 300 found at position:2 in the Tuple (100, 200, 300, 200)
