@@ -51,9 +51,9 @@ def fetch_image_urls(query: str, max_links_to_fetch: int, wd: webdriver, sleep_b
             print("Found:", len(image_urls), "image links, looking for more ...")
             time.sleep(30)
             return
-            load_more_button = wd.find_element_by_css_selector(".mye4qd")
-            if load_more_button:
-                wd.execute_script("document.querySelector('.mye4qd').click();")
+        load_more_button = wd.find_element_by_css_selector(".mye4qd")
+        if load_more_button:
+            wd.execute_script("document.querySelector('.mye4qd').click();")
 
         # move the result startpoint further down
         results_start = len(thumbnail_results)
@@ -84,7 +84,7 @@ def search_and_download(search_term: str, driver_path: str, target_path='./image
         os.makedirs(target_folder)
 
     with webdriver.Chrome(executable_path=driver_path) as wd:
-        res = fetch_image_urls(search_term, number_images, wd=wd, sleep_between_interactions=0.5)
+        res = fetch_image_urls(search_term, number_images, wd=wd, sleep_between_interactions=2.0)
 
     counter = 0
     for elem in res:
@@ -93,15 +93,15 @@ def search_and_download(search_term: str, driver_path: str, target_path='./image
 
 
 # How to execute this code
-# Step 1 : pip install selenium. pillow, requests
+# Step 1 : pip install selenium, pillow, requests
 # Step 2 : make sure you have chrome installed on your machine
 # Step 3 : Check your chrome version ( go to three dot then help then about google chrome )
 # Step 4 : Download the same chrome driver from here  " https://chromedriver.storage.googleapis.com/index.html "
 # Step 5 : put it inside the same folder of this code
 
 
-DRIVER_PATH = r'C:\Users\vikas\Downloads\ImageScrapper\chromedriver.exe'
-search_term = 'Narendra Modi'
+DRIVER_PATH = r'chromedriver.exe'
+search_term = 'audi'
 # num of images you can pass it from here  by default it's 10 if you are not passing
 #number_images = 50
-search_and_download(search_term=search_term, driver_path=DRIVER_PATH, number_images=150)
+search_and_download(search_term=search_term, driver_path=DRIVER_PATH, number_images=10)
